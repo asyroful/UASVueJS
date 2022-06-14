@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initialscale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <link rel="stylesheet" href="uas2.css">
+    <title>uas nomor 2 - frame </title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="app">
+            <iframe :src="form" frameborder="1"></iframe>
+            <div class="sidebar">
+                <ul>
+                    <li><input type="radio" v-model="pilih" id="form" value="form.html">Form</li>
+                    <li><input type="radio" v-model="pilih" id="dbind" value="bindingncomputed.html">Data Binding</li>
+                    <li><input type="radio" v-model="pilih" id="array" value="array.html">Array</li>
+                    <li><input type="radio" v-model="pilih" id="evhand"  Value="EventHandlerForm.html">Event Handler</li>
+                </ul>
+                <button @click="click" class="tampilkan">tampilkan</button>
+            </div>
+        </div>
+    </div>
+    <script src="uas2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    margin: auto;
+    background-color: #0f1018;
+    border: solid 3px #f8e00d;
+}
+iframe {
+    width: 70%;
+    height: 600px;
+    border: solid 1px #f8e00d;
+}
+.sidebar {
+    width: 29%;
+    float: right;
+}
+ul li {
+    color: #f8e00d;
+    list-style: none;
+}
+.tampilkan {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #0f1018;
+    background-color: white;
+    margin-left: auto;
+    cursor: pointer;
+}
+.tampilkan:hover {
+    opacity: 0.8;
+}
